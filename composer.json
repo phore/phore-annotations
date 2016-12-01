@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phore\\Annotations\\": "src/Annotations",
+            "Phore\\Annotations\\": "src/Annotations"
         }
     },
     "minimum-stability": "dev",
