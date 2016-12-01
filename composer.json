@@ -1,0 +1,29 @@
+{
+    "name": "phore/annotations",
+    "type": "library",
+    "description": "Phore Annotations Abstraction",
+    "keywords": ["Phore", "Annotations"],
+    "homepage": "https://getgismo.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Leuffen",
+            "email": "matthes@leuffen.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "doctrine/annotations": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phore\\Annotations\\": "src/Annotations",
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
